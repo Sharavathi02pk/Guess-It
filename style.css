@@ -1,0 +1,35 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.container{
+    width: 100%;
+    height: 425px;
+    background-image: linear-gradient(rgba(16, 10, 49, 0.9),rgba(45, 2, 2, 0.7)),url(background.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    padding-top: 160px;
+}
+h1{
+    color: rgba(215, 215, 91, 0.938);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 80px;
+    text-shadow: 0 0 6px rgba(200, 200, 200, 6)
+}
+button
+{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgba(250, 247, 247, 0.719);
+    color: black;
+    border: white;
+    box-shadow: 0 0 6px rgba(255, 255, 255, 4);
+    font-size: 50px;
+    margin-top: 70px;
+    width: 160px;
+}
+button:hover{
+    box-shadow: 0 0 15px rgba(0, 0, 0, 6);
+}
